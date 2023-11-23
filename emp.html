@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Employee</title>
+		<style>
+			body {
+				font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+            background-image:url('blur-hotel-lobby.jpg');
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+            width: 100%;
+				margin: 0;
+				padding: 0;
+			}
+	
+			form {
+				text-align: center;
+				background-color: #fff;
+				max-width: 400px;
+				margin: 0 auto;
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			}
+	
+			table {
+				width: 100%;
+			}
+	
+			th {
+				background-color: #007bff;
+				color: #fff;
+			}
+	
+			td {
+				padding: 10px;
+			}
+	
+			input[type="number"],
+			input[type="text"] {
+				width: 100%;
+				padding: 10px;
+				margin: 5px 0;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+	
+			#btn {
+				background-color: #007bff;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				padding: 10px;
+			}
+	
+			#btn:hover {
+				background-color: #0056b3;
+			}
+		</style>
+		</head>
+		<body >
+		
+			<form method="post" action="empReg.php">
+		
+<center><table>
+	<tr><th colspan = "2">Employee</th></tr>
+
+<tr></tr>
+<tr></tr>
+<tr></tr>
+
+    <tr>
+	<td>Eid:</td>
+	<td> <input type="number" name="txtid" required></td>
+	</tr>
+	
+	<tr>
+	<td>Telephone:</td>
+	<td> <input type="number" name="txtt" required></td>
+	</tr>
+	
+	<tr>
+	<td>Name:</td>
+	<td> <input type="text" name="txtn" required></td>
+	</tr>
+	
+	<tr>
+	<td>Email:</td>
+	<td> <input type="text" name="txte" required></td>
+	</tr>
+	
+	<tr>
+	<td>Designation:</td>
+	<td> <input type="text" name="txtd" required></td>
+	</tr>
+	
+	<tr><th colspan = "3"><br><input type="Submit" value="Submit" id="btn"/></th></tr><br>
+	
+	</table></center>
+	<br>
+      <p><center><a href="user_page.php"><input type="button" class="btn btn-primary" value="Back" name="back"></a></center></p>
+</form>
+</body>
+</html>
